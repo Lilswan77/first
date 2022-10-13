@@ -8,6 +8,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Silkscreen"></link>
   </React.StrictMode>
 );
 

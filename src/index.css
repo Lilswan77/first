@@ -1,0 +1,45 @@
+body{
+    background: #edeef0;
+}
+
+
+.contents{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    padding: 10px;
+    border: 2px solid rgb(18, 18, 18);
+    border-radius: 10px;
+    box-shadow: 5px 10px rgb(18,18,18);
+    background: white;
+    width: 50vh;
+    height: 50vh;
+}
+
+nav {
+    overflow: auto;
+    border-bottom: 1px solid black;
+}
+
+.nav-section{
+    margin: 0%;
+    font-family: "Silkscreen";
+    display: inline;
+}
+
+.nav-section.one{
+    float: right;
+}
+
+.title{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    font-family: "Silkscreen";
+    font-size: 50px;
+}
